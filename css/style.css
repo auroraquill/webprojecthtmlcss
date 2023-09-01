@@ -1,0 +1,129 @@
+h1{
+    color: lightsalmon;
+    font-family: arial;
+    font-size: 50px;
+  }
+
+p{
+    text-indent: 30px;
+    line-height: 1.5;   
+    font-size: 16px;
+    color: royalblue;
+    font-family: verdana; }
+
+li{
+    color: cornflowerblue;
+    font-size: 12px;
+    font-family: cursive; }
+
+img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50px;
+
+    /* Menengahkan gambar*/
+    display: block;
+    margin: 0px auto 0px auto;
+}
+
+/*selector digunakan untuk memilih mana bagian dari HTML yang akan diubah*/ 
+/*syntax CSS adalah selector(properties: value;}*/
+
+/*selector dengan nama tag*/
+
+h1{
+    color: rgb(115, 68, 119);
+}
+
+/*selector id*/
+#judul{
+    color: palevioletred;
+}
+/*selector class*/
+.tengah{
+    align-self: center; 
+    color: rgb(163, 100, 148);
+}
+
+/*Multy selector*/ 
+h2, h3, h4{
+    color: rgb(185, 98, 104);
+    text-align: center;
+}
+
+/*lebih sepesifik lagi bisa*/
+
+h2.tengah{
+    color: pink;
+    text-align: center;
+} 
+
+a:link{
+    color:pink
+}
+
+a:link{
+    color:rgb(121, 78, 107);
+}
+a:visited{
+    color: rgb(174, 28, 121);
+}
+a:hover{
+    color: rgb(225, 171, 210);
+}
+a:active{
+    color: rgb(164, 111, 120);
+}
+
+.button{
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(103, 45, 103);
+    color: #ffff;
+    text-align: center;
+    font-size: 28px;
+}
+
+.button:hover {background-color: rgb(16, 16, 15);}
+
+.button:active {
+    background-color: aliceblue;
+    box-shadow: 0 5px #666;
+}
+
+table {
+    border-collapse: collapse;
+    font-family: Verdana, sans-serif;
+}
+
+td, td {
+    width: 100px;
+    border-bottom: 1px solid white;
+}
+
+td:first-child, td:first-child {
+    width: 50px;
+}
+
+th {
+    background-color: #81CFE0;
+    color: white;
+}
+
+tr:nth-child(odd) {
+    background-color: #81CFE0;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #81CFE0;
+    color: white;
+}
+
+tr:hover {
+    background-color: #FFA500; /* Warna ketika di hover */
+    color: black; /* Warna teks ketika di hover */
+}
+
+
+
